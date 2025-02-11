@@ -1,0 +1,3 @@
+function myFunction() {
+    alert(" Je suis un jeune homme passionné par tout ce qui est en rapport avec Internet. J'aime télécharger des fichiers qui ne sont pas accessibles au grand public. Je peux me qualifier de collectionneur de données rares sur Internet. De plus, j'aime aussi tester les nouvelles technologies. Ma source d'apprentissage est YouTube, car je peux tout apprendre sur cette plateforme.");
+  }

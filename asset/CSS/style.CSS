@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+    scroll-padding-top: 5.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 5.5rem; 
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px #25232318;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+    padding: 2rem 7%;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    position: relative; 
+    flex-direction: column; 
+}
+
+.header .nav__container .nav__menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20rem; 
+}
+
+.header .nav__container .nav__menu a:hover {
+    color: #000;
+}
+
+.nav__menu li {
+    margin: 0 1rem;
+}
+
+.nav__menu li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: orange;
+}
+
+.container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container a {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 1rem;
+    transition: all 0.4s ease;
+}
+
+.container a:hover {
+    background-color: #000;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+
+}
+
+.home .container .banner {
+    flex: 1;
+}
+
+.home .container .banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 70%;
+}
+
+.home .container {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.home .container:hover {
+    color: orange;
+}
+
+.card .container {
+    font-size: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 8px 16px #000;
+    border-radius: 2rem;
+    background-color:#fff;
+}
+
+.card .container h3 {
+    font-size: 3rem;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.card .container p {
+    text-align: center;
+}
+
+
+.card .container:hover {
+    background-color: orange;
+}
+
